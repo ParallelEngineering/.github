@@ -10,29 +10,10 @@
 - First letter of each comment are upper case
 
 ## Branches
-- Use Github Flow with aditional `sub-feature` branches
-- Specific and proper naming, with this convention `feature/sub-feature`
-- Sub-feature branches should have as little as possible commits
-- both `main` and `feature` branches are protected and can only be reached by pull requests
-```                                       
-o main                            
-|\                                       
-| o feature-a                            
-| |                                      
-| o                                      
-| |\                                     
-| | o feature-a-sub                      
-| | |                                    
-| | |                                    
-| | |                                    
-| | o merged feature-a into feature-a-sub
-| |/                                     
-| o feature-a-sub merged into feature-a  
-| |                                      
-| o feature-a with future work on it     
-|/                                       
-o merge feature-a into main
-```
+- Use Github Flow
+- Specific and proper naming, with this convention `feature/feature-name`
+- The `main` branches is protected and can only be reached by pull requests
+
 ## Commits
 - Debuging features are only allowed in `sub-feature` branches
 
