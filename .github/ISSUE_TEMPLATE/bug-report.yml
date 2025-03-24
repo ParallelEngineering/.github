@@ -13,17 +13,17 @@ body:
       placeholder: When I click here this happens
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: platform
     attributes:
       label: On which platform did you experience the issue?
       options:
-        - label: Windows (x86/32-Bit)
-        - label: Windows (64-Bit)
-        - label: Ubuntu (20.04 LTS or above)
-        - label: macOS (Apple Silicon)
-        - label: macOS (Intel)
-        - label: Other (please specify below)
+        - Windows (x86/32-Bit)
+        - Windows (64-Bit)
+        - Ubuntu (20.04 LTS or above)
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Other (please specify below)
   - type: input
     id: other_platform
     attributes:
