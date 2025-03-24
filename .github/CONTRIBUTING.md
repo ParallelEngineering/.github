@@ -2,6 +2,7 @@
 
 ## Formating
 - `clang-format` is used for formating
+- When a PR is merged the maintainers will run it
 
 ## Comments
 - Multiline comments start with a `//` at the start of the line 
@@ -16,6 +17,8 @@
 
 ## Commits
 - Debugging features are only allowed in `sub-feature` branches
+- `sub-feature` branches are created by appending a `#`
+- For example like this `feature/branch#sub-feature`
 - All test need to pass before merging
 
 ## Pull Requests
